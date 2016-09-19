@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*初级框架，不支持分数*/
 
-public class cQuestion2 {
+public class Question2 {
 
 	public static String str = "";//题目
 	public static int num = 4;//每题中数的个数

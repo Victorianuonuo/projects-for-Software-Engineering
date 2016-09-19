@@ -1,20 +1,5 @@
 
 
-Mon Sep 19 12:05:47 CST 2016
+Mon Sep 19 12:25:31 CST 2016
 
 
-1. 10+(6/7)+2
-Your answer:      90/7
-True answer:     (90/7)
-2. ((12/15)+13)*(12/2)
-Your answer:      233
-True answer:     (414/5)
-3. (9+7-1)*9
-Your answer:      3f33f
-True answer:     135
-4. 12 / ((19/6)*(1/16))
-Your answer:      3..
-True answer:     (1152/19)
-5. (20/2)+3+16
-Your answer:      29/
-True answer:     29

@@ -8,7 +8,7 @@ import java.io.PrintStream;
 import java.util.Date;
 import java.util.Scanner;
 
-public class cQuestion {
+public class Question {
 
 	public static String str = "";//题目
 	public static int num = 4;//每题中数的个数
