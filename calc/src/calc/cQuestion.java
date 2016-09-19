@@ -1,5 +1,6 @@
 package calc;
 
+/*支持分数和随机长度，并可以将每次答题情况记录到文件里 */
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -117,20 +118,20 @@ public class cQuestion {
 			if(ck!=0)
 				w=new number(1+(int)(Math.random()*numberRange));
 			else w=new number(1+(int)(Math.random()*numberRange),1+(int)(Math.random()*numberRange));
-			int t=1+(int)(Math.random()*100);
-			int f=1+(int)(Math.random()*100);
+			int t=(int)(Math.random()*2);
+			int f=(int)(Math.random()*4);
 			
-			if(t>50)
+			if(t == 0)
 			{
-				if( f < 25 ) {
+				if( f == 0 ) {
 					sum = sum.add(w);
 					str = str + "+" + w.toString();
 				}
-				if( f >= 25 && f < 50 ) {
+				if( f == 1 ) {
 					sum = sum.sub(w);
 					str = str + "-" +w.toString();	
 				}
-				if( f >= 50 && f < 75 ) {
+				if( f == 2 ) {
 					if( j < 3 ) {
 						sum = sum.mul(w);
 						str = str + "*" + w.toString();
@@ -140,7 +141,7 @@ public class cQuestion {
 						str = "(" +str+ ")" + "*" + w.toString();
 					}
 				}
-				if ( f >= 75 ) {
+				if ( f == 3 ) {
 					
 					if( j < 3 ) {
 						sum = sum.div(w);
@@ -154,11 +155,11 @@ public class cQuestion {
 			}
 			else
 			{
-				if( f < 25 ) {
+				if( f == 0 ) {
 					sum = sum.add(w);
 					str = w.toString() + "+" + str;	
 				}
-				if( f >= 25 && f < 50 ) {
+				if( f == 1 ) {
 					if( j < 3 ) {
 						sum = w.sub(sum);
 						str = w.toString() + "-" + str;
@@ -168,7 +169,7 @@ public class cQuestion {
 						str = w.toString() + "-" + "(" +str+ ")";
 					}
 				}
-				if( f >= 50 && f < 75 ) {
+				if( f == 2 ) {
 					if( j < 3 ) {
 						sum = sum.mul(w);
 						str = w.toString()+ "*" + str;
@@ -178,7 +179,7 @@ public class cQuestion {
 						str = w.toString() + "*" + "(" +str+ ")";
 					}
 				}
-				if( f >= 75 ) {
+				if( f == 3) {
 					if( j < 3 ) {
 						sum = w.div(sum);
 						str = w.toString() + " / " + str;

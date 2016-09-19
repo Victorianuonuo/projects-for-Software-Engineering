@@ -1,5 +1,7 @@
 package calc;
 
+//it's for testing the number class
+
 import java.sql.Time;
 import java.util.Date;
 

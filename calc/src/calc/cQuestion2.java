@@ -2,6 +2,8 @@ package calc;
 
 import java.util.Scanner;
 
+/*初级框架，不支持分数*/
+
 public class cQuestion2 {
 
 	public static String str = "";//题目
@@ -61,20 +63,20 @@ public class cQuestion2 {
 			quesGrow();
 			
 			int w=1+(int)(Math.random()*numberRange);
-			int t=1+(int)(Math.random()*100);
-			int f=1+(int)(Math.random()*100);
+			int t=(int)(Math.random()*2);
+			int f=(int)(Math.random()*4);
 			
-			if(t>50)
+			if(t==0)
 			{
-				if( f < 25 ) {
+				if( f == 0 ) {
 					sum = sum + w;
 					str = str + "+" + String.valueOf( w );
 				}
-				if( f >= 25 && f < 50 ) {
+				if( f == 1 ) {
 					sum = sum - w;
 					str = str + "-" + String.valueOf( w );	
 				}
-				if( f >= 50 && f < 75 ) {
+				if( f == 2) {
 					if( j < 3 ) {
 						sum = sum * w;
 						str = str + "*" + String.valueOf( w );
@@ -84,7 +86,7 @@ public class cQuestion2 {
 						str = "(" +str+ ")" + "*" + String.valueOf( w );
 					}
 				}
-				if ( f >= 75 ) {
+				if ( f == 3 ) {
 					w = (int)sum;
 					if(w<0)w= -w;
 					if( j < 3 ) {
@@ -99,11 +101,11 @@ public class cQuestion2 {
 			}
 			else
 			{
-				if( f < 25 ) {
+				if( f == 0 ) {
 					sum = w + sum;
 					str = String.valueOf( w ) + "+" + str;	
 				}
-				if( f >= 25 && f < 50 ) {
+				if( f == 1 ) {
 					if( j < 3 ) {
 						sum = w - sum;
 						str = String.valueOf( w ) + "-" + str;
@@ -113,7 +115,7 @@ public class cQuestion2 {
 						str = String.valueOf( w ) + "-" + "(" +str+ ")";
 					}
 				}
-				if( f >= 50 && f < 75 ) {
+				if( f == 2 ) {
 					if( j < 3 ) {
 						sum = w * sum;
 						str = String.valueOf( w ) + "*" + str;
@@ -123,7 +125,7 @@ public class cQuestion2 {
 						str = String.valueOf( w ) + "*" + "(" +str+ ")";
 					}
 				}
-				if( f >= 75 ) {
+				if( f == 3 ) {
 					w = (int)(((w%10)+1) * sum);
 					if( j < 3 ) {
 						sum = w / sum;
