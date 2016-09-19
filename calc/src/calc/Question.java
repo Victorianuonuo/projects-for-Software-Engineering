@@ -36,7 +36,7 @@ public class Question {
 			file=args[0];
 		
 		try {
-			out=new PrintStream(new FileOutputStream(file));
+			out=new PrintStream(new FileOutputStream(file),true);
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
