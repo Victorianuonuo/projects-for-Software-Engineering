@@ -1,5 +1,33 @@
 
 
-Mon Sep 19 12:25:31 CST 2016
+Mon Sep 19 13:13:23 CST 2016
 
+
+
+
+Mon Sep 19 13:14:12 CST 2016
+
+
+1. 15-7+(19/10)
+Your answer:      
+True answer:     (99/10)
+2. (13/4)-19-(15/8)
+Your answer:      
+True answer:     (-141/8)
+3. (11-((3/14) / 13)) / 14
+Your answer:      
+True answer:     (1999/2548)
+4. 10*((7/16)-((14/15)*(9*(5/13))))
+Your answer:      
+True answer:     (-2905/104)
+
+
+Mon Sep 19 13:14:17 CST 2016
+
+
+
+Mon Sep 19 13:15:25 CST 2016
+
+
+Mon Sep 19 13:15:26 CST 2016
 

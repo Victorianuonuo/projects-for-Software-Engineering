@@ -36,7 +36,7 @@ public class Question {
 			file=args[0];
 		
 		try {
-			out=new PrintStream(new FileOutputStream(file),true);
+			out=new PrintStream(new FileOutputStream(file,true));
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -44,7 +44,9 @@ public class Question {
 			return ;
 		}
 		
-		out.println("\n\n"+new Date()+"\n\n");
+		out.println();
+		out.println(new Date());
+		out.println();
 
 		for (int i = 0; i < 25; i++) {
 			
@@ -93,6 +95,7 @@ public class Question {
 		}
 		System.out.println(right+" / 25, So your accuracy is "+right/25.0);
 		out.println(right+" / 25, So your accuracy is "+right/25.0);
+		out.println();
 		out.println();
 		input.close();
 		out.close();
