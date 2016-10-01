@@ -31,3 +31,522 @@ Mon Sep 19 13:15:25 CST 2016
 
 Mon Sep 19 13:15:26 CST 2016
 
+
+Sun Sep 25 15:09:16 CST 2016
+
+1. (16-2)*(7/16)
+Your answer:      
+True answer:     (49/8)
+2. (((8*(2/2))*11) / 14) / 10
+Your answer:      
+True answer:     (22/35)
+3. 9-13-7
+Your answer:      
+True answer:     -11
+4. (15+2) / 11
+Your answer:      17/11
+True answer:     (17/11)
+
+Sun Sep 25 15:10:25 CST 2016
+
+1. 1 / (6*1)
+Your answer:      1/6
+True answer:     (1/6)
+2. 3+16+17
+Your answer:      
+True answer:     36
+3. 8-(6/2)
+Your answer:      5
+True answer:     5
+
+Sun Sep 25 15:10:42 CST 2016
+
+1. 2+(10/3)*(18/17)+17-13
+Your answer:      
+True answer:     (162/17)
+2. 15+(18/13)*((4*4) / 12)
+Your answer:      393/26
+True answer:     (219/13)
+3. 19-(13-(3-15)+18)
+Your answer:      
+True answer:     -24
+4. (2/9)+15+7
+Your answer:      
+True answer:     (200/9)
+
+Sun Sep 25 15:15:27 CST 2016
+
+
+Sun Sep 25 15:15:31 CST 2016
+
+
+Sun Sep 25 15:16:29 CST 2016
+
+1. 20+15-4
+Your answer:      
+True answer:     31
+2. ((6/14)+11+(14/9)) / (19/7)
+Your answer:      
+True answer:     (818/171)
+3. 15-(10*((10/5))-5)
+Your answer:      
+True answer:     0
+4. (4/16)-14+4-11
+Your answer:      
+True answer:     (-83/4)
+5. (15/12)-(1*(1*((11/19)))+10)
+Your answer:      
+True answer:     (-709/76)
+6. (12-((8/9)*(6)))*18
+Your answer:      
+True answer:     120
+7. 17*((2/6))-15
+Your answer:      
+True answer:     (-28/3)
+8. 4*(18+9)
+Your answer:      
+True answer:     108
+9. 14*(19 / (20 / (1-17)))
+Your answer:      
+True answer:     (-1064/5)
+10. (11+(9/2)-(13/16)-6) / 7
+Your answer:      
+True answer:     (139/112)
+11. 17 / ((9*(14)-(20/14))*(2/19))
+Your answer:      
+True answer:     (2261/1744)
+
+Sun Sep 25 15:18:13 CST 2016
+
+
+Sun Sep 25 15:18:29 CST 2016
+
+
+Sun Sep 25 15:19:17 CST 2016
+
+1. 5 / 12
+Your answer:      
+True answer:     (5/12)
+
+Sun Sep 25 15:19:26 CST 2016
+
+1. 11-12
+Your answer:      
+True answer:     -1
+2. 3*((8/13)+(15/15))
+Your answer:      
+True answer:     (63/13)
+3. (2*(20/20)) / 2
+Your answer:      1
+True answer:     1
+4. 9+19*6
+Your answer:      
+True answer:     123
+5. 6 / 3
+Your answer:      
+True answer:     2
+6. 12 / 3
+Your answer:      
+True answer:     4
+7. (17*14)*(1/6)
+Your answer:      
+True answer:     (119/3)
+8. 9+6
+Your answer:      
+True answer:     15
+9. (7/11)+13
+Your answer:      
+True answer:     (150/11)
+10. 19
+Your answer:      
+True answer:     19
+11. (10/20)
+Your answer:      
+True answer:     (1/2)
+12. (19/16)-(16/3)
+Your answer:      
+True answer:     (-199/48)
+13. (4/17)+13
+Your answer:      
+True answer:     (225/17)
+14. 11*(5/16)
+Your answer:      
+True answer:     (55/16)
+15. 11*(5 / 7)
+Your answer:      
+True answer:     (55/7)
+16. 9+13-(19/19)
+Your answer:      
+True answer:     21
+17. (13/20)*7
+Your answer:      
+True answer:     (91/20)
+18. 2*(3/7)
+Your answer:      
+True answer:     (6/7)
+19. 8-((19/2) / (1/10))
+Your answer:      
+True answer:     -87
+20. 18*((15/12) / 18)
+Your answer:      
+True answer:     (5/4)
+21. 20*(2/11)+(20/7)
+Your answer:      
+True answer:     (500/77)
+22. 2+10
+Your answer:      
+True answer:     12
+23. 5-5
+Your answer:      
+True answer:     0
+24. 4
+Your answer:      
+True answer:     4
+25. (4/19)+2+13
+Your answer:      
+True answer:     (289/19)
+1 / 25, So your accuracy is 0.04
+
+
+
+Sun Sep 25 15:22:07 CST 2016
+
+1. 20
+Your answer:      
+True answer:     20
+2. 3 / 5
+Your answer:      
+True answer:     (3/5)
+3. (18/18) / 10
+Your answer:      
+True answer:     (1/10)
+4. 9*(7 / 20)
+Your answer:      
+True answer:     (63/20)
+5. 2
+Your answer:      
+True answer:     2
+6. 1*3
+Your answer:      
+True answer:     3
+7. (16/19) / 3
+Your answer:      
+True answer:     (16/57)
+8. (13/5) / 18
+Your answer:      
+True answer:     (13/90)
+9. 7*(18+5)
+Your answer:      
+True answer:     161
+10. 17
+Your answer:      
+True answer:     17
+11. 15+12-16
+Your answer:      
+True answer:     11
+12. (8*(17/5)) / 1
+Your answer:      
+True answer:     (136/5)
+13. (9 / (11/5))*19
+Your answer:      
+True answer:     (855/11)
+14. (4/14) / (13/6)
+Your answer:      
+True answer:     (12/91)
+15. 16 / 8
+Your answer:      
+True answer:     2
+16. (4/2)*7
+Your answer:      
+True answer:     14
+17. 9
+Your answer:      
+True answer:     9
+18. 12 / 11
+Your answer:      
+True answer:     (12/11)
+19. 8-(16/20)-19
+Your answer:      
+True answer:     (-59/5)
+20. 2+3-4
+Your answer:      
+True answer:     1
+21. (10/14)+12
+Your answer:      
+True answer:     (89/7)
+22. 18-(20+17)
+Your answer:      
+True answer:     -19
+23. 12
+Your answer:      
+True answer:     12
+24. 3 / 19
+Your answer:      
+True answer:     (3/19)
+25. (5/18)*(5/2)-(4/11)
+Your answer:      
+True answer:     (131/396)
+0 / 25, So your accuracy is 0.0
+
+
+
+Sun Sep 25 15:24:32 CST 2016
+
+1. ((1+(5/2)+(17) / (8/10))*(19/11)) / 7
+Your answer:      
+True answer:     (99/28)
+2. (20/20)+(7-((3) / 9)) / 8
+Your answer:      
+True answer:     (11/6)
+3. (1+12+7)*(3/9)+11
+Your answer:      
+True answer:     31
+4. 18+(7-((18)*(3/7)))*2
+Your answer:      
+True answer:     7
+5. ((16/5)-((13/13)-(17)))*1+10-13
+Your answer:      
+True answer:     (81/5)
+6. 15+14*(18-((17/18)+14))
+Your answer:      
+True answer:     (520/9)
+7. (((14/14) / (11)+(16/2))*10)*2
+Your answer:      
+True answer:     (89/11)
+8. (15 / (15*(18)))*11
+Your answer:      
+True answer:     (1/18)
+9. 2+17 / ((15*((13/11))) / 14)-2
+Your answer:      
+True answer:     (2618/195)
+10. 20-(6*(13-(9 / (19)))+(14/20))
+Your answer:      
+True answer:     (-10613/190)
+11. (((9/13)-(5/10))*15) / 6
+Your answer:      
+True answer:     (5/156)
+12. 10-(((16 / (12))*(17/18))*20)
+Your answer:      
+True answer:     (26/3)
+13. ((2+3 / ((19) / (10/12)))*3)*10
+Your answer:      
+True answer:     (81/38)
+14. ((4/10)-(((14/12)) / 14)+8) / 17
+Your answer:      
+True answer:     (499/1020)
+15. 2+5-(((6) / 1)*2)
+Your answer:      
+True answer:     1
+16. 17+13+7+4
+Your answer:      
+True answer:     41
+17. (13*(13*(16 / ((8/4)))+19)) / (12/9)
+Your answer:      
+True answer:     (4797/4)
+18. 2+(19*(1))*(3/6)-(17/14)
+Your answer:      
+True answer:     (277/14)
+19. ((3/11)*((11+(16) / (5/7)) / 19)) / 18
+Your answer:      
+True answer:     (167/6270)
+20. (18-((7/13)-(16/4))) / 9
+Your answer:      
+True answer:     (31/13)
+21. 15-((3/2)-(14 / (11+14)))
+Your answer:      
+True answer:     (703/50)
+22. 7-(10*(12-((13/12)+10)))
+Your answer:      
+True answer:     (-13/6)
+23. 20 / (10-(16+(9/4)))-19
+Your answer:      
+True answer:     (-707/33)
+24. 4*((7/2) / ((((4/15))*(13/3))*(7/9)))
+Your answer:      
+True answer:     (105/2)
+25. ((6/17)-(11-((20/14))-20)) / 10
+Your answer:      
+True answer:     (1283/1190)
+0 / 25, So your accuracy is 0.0
+
+
+
+Sun Sep 25 15:24:57 CST 2016
+
+
+Sun Sep 25 15:28:27 CST 2016
+
+1. 17 / ((1+((19/11)*2)*8) / 12)
+Your answer:      
+True answer:     (748/105)
+2. (((10/7)*(9/8)+6) / (19/14)-10) / 9
+Your answer:      
+True answer:     (-167/342)
+3. (13/4)-((18/14)-((7 / 19) / (10/14)-2))
+Your answer:      
+True answer:     (1277/2660)
+4. 8 / ((((8/17) / (20-10)) / 2)*3)
+Your answer:      
+True answer:     (340/3)
+5. 16 / (15+9 / (17+20))
+Your answer:      
+True answer:     (148/141)
+6. (15/6) / ((17*(13-20)) / 5)
+Your answer:      
+True answer:     (-25/238)
+
+Sun Sep 25 15:33:24 CST 2016
+
+1. 2*14+10+19-11
+Your answer:      
+True answer:     75
+2. 8-(4/17)+4*20-8
+Your answer:      
+True answer:     (-684/17)
+3. 18-9+17*13*17+(7/19)
+Your answer:      
+True answer:     (-103353/19)
+4. (1/8)+20-9+8*(2/14)-1
+Your answer:      
+True answer:     (103/56)
+5. (14/18)*(18/6)+4-(19/19) / 20+12
+Your answer:      
+True answer:     (-707/180)
+6. 19*13 / 4-4+1
+Your answer:      
+True answer:     (235/4)
+7. 11 / (9/6) / 16+15 / 3
+Your answer:      
+True answer:     (352/161)
+8. 8*(20/19)*(10/12)*2-12-10
+Your answer:      
+True answer:     (-454/57)
+
+Sun Sep 25 15:34:21 CST 2016
+
+1. ((19*(17-((9/7))))*11) / 11
+Your answer:      
+True answer:     (2090/7)
+2. (1/20)-(10+19*(2-15))
+Your answer:      
+True answer:     (4741/20)
+3. 16+((11-(2*(17)))*1)*(7/12)
+Your answer:      
+True answer:     (31/12)
+4. ((2+12)*14+12)*(17/18)
+Your answer:      
+True answer:     (1768/9)
+5. (1 / (15-4+(5/6)))*12
+Your answer:      
+True answer:     (72/71)
+6. ((4 / (16)) / (7/14)+(2/12))*(12/15)+2
+Your answer:      
+True answer:     (38/15)
+7. 13+(19 / (10-(1/20)-(15/20))) / 18
+Your answer:      
+True answer:     (10859/828)
+8. (3/16)*((2/2)-(14*(8 / ((5/5)+16))))
+Your answer:      
+True answer:     (-285/272)
+9. 17+((14/15)*(18-16))*6
+Your answer:      
+True answer:     (141/5)
+
+Sun Sep 25 15:34:52 CST 2016
+
+1. (8 / (((12-(6/5)) / 14) / 12))*15
+Your answer:      
+True answer:     (5600/3)
+2. 1+2-((12/19)-8-6)
+Your answer:      
+True answer:     (311/19)
+3. (15+(20 / 12)*2)*11
+Your answer:      
+True answer:     (605/3)
+4. 5+(12*(5+19))*2
+Your answer:      
+True answer:     581
+5. 2 / (17-(15+(10/18)))-2
+Your answer:      
+True answer:     (-8/13)
+
+Sun Sep 25 15:36:12 CST 2016
+
+1. 3(4)-((2/9)+(19/18)(2)+8(3))-17(5)
+Your answer:      
+True answer:     (-419/18)
+2. (6(4) / (7(3)-(5 / 3(2)))-14(5)) / 16(6)
+Your answer:      
+True answer:     (-103/128)
+3. 13(3)*(10(2)+13)+19(4)+1(5)
+Your answer:      
+True answer:     319
+4. 2(5) / (15(4)+18(3)-(11(2) / 13))
+Your answer:      
+True answer:     (13/209)
+5. 19(6)-((15/15)(5)+(8(3) / (17+15(2)))*20(4))
+Your answer:      
+True answer:     13
+6. (16(4)-(14(3)*(6 / 10(2)))) / 11(5)
+Your answer:      
+True answer:     (38/55)
+7. (12/3)(5)+13(4)+14(2)*(13/20)-1(3)-1(6)
+Your answer:      
+True answer:     (241/10)
+8. ((((13-10(2)) / 8(3))*19(4)) / 8(5)) / 16(6)
+Your answer:      
+True answer:     (57/1024)
+9. ((14/19)(5)-((6/19)(4)-((2/11)(3)+14+19(2)))) / 9(6)
+Your answer:      
+True answer:     (2341/627)
+10. (2/16)(6)-(((3/3)*(9/15)(2)-18(3))*(1/11)(4)-11(5))
+Your answer:      
+True answer:     (5591/440)
+11. 17(6)*(7(4)-(16-4(2)+5(3))-(7/16)(5))
+Your answer:      
+True answer:     (-2839/16)
+12. ((19(3)+(13/13)(2)*2) / 2(4))*(11/17)(5)
+Your answer:      
+True answer:     (231/34)
+13. 13(6)*(1(5)+(5/16)(4)*(19(3)-(16(2)+20)))
+Your answer:      
+True answer:     (-897/16)
+14. 13(5)*(((9/6)(3)*((14/12)-8(2))) / (2/6)(4))
+Your answer:      
+True answer:     (-1599/4)
+15. ((((14+(17/4)(2)) / (17/4)(3)) / 9(4)) / (7/4)(5)) / 12(6)
+Your answer:      
+True answer:     (73/3213)
+16. ((20(3)-(13(2) / 7)) / 13(4))*8(5)
+Your answer:      
+True answer:     (1016/91)
+17. (2/8)(5)-((18(3)-(9*8(2)))*4(4))
+Your answer:      
+True answer:     (865/4)
+18. (11(3) / (3+5(2))+19(4))*(5/8)(5)
+Your answer:      
+True answer:     (815/64)
+19. (12(4)*(4(3)*(10+20(2)))) / 18(5)
+Your answer:      
+True answer:     80
+20. (1(5)+(1/20)*20(2)+(13/6)(3)-14(4)) / (17/17)(6)
+Your answer:      
+True answer:     (-59/6)
+21. (18/8)(5) / ((18(2) / 20-(9/10)(3)) / 11(4))
+Your answer:      
+True answer:     (1/0)
+22. 14(4)*(8(3) / (2(2)+(4/4)))-16(5)
+Your answer:      
+True answer:     (64/3)
+23. 10(6)-(6(5)-((12(3) / ((14/4)(2)*(19/8))) / (11/4)(4)))
+Your answer:      
+True answer:     (6620/1463)
+24. 20(6)+(19(3) / (6+(8/10)(2)))*3(4)-13(5)
+Your answer:      
+True answer:     (523/34)
+25. (15(3)+8(2)+2-18(4))*3(5)
+Your answer:      
+True answer:     21
+0 / 25, So your accuracy is 0.0
+
+
