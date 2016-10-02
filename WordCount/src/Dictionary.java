@@ -58,7 +58,7 @@ public class Dictionary {
 				if(count.get(o1).equals(count.get(o2))){
 					return word.get(o1).compareTo(word.get(o2));
 				}else{
-					return count.get(o1).compareTo(count.get(o2));
+					return count.get(o2).compareTo(count.get(o1));
 				}
 			}
 			
@@ -73,7 +73,12 @@ public class Dictionary {
 			BufferedWriter bf = new BufferedWriter(fw);
 			for(int i=0;i<list.size();i++){
 				String wd = list.get(i);
-				bf.write(this.word.get(wd)+"\t"+this.count.get(wd)+"\n");
+				String s1 = this.word.get(wd);
+				String space = "";
+				for(int j=0;j<40-s1.length();j++)
+					space = space+" ";
+				bf.write(s1+space+"\t"+this.count.get(wd));
+				bf.newLine();
 			}
 			bf.flush();
 			fw.close();
