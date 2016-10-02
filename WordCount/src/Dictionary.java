@@ -1,4 +1,3 @@
-import java.awt.List;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -34,22 +33,22 @@ public class Dictionary {
 	}
 	
 	
-	public void build(String directory, int flag) {
+	public void ReadDir(String directory, int flag) {
 		File dir = new File(directory);
 		for( File f: dir.listFiles()){
 			if(f.isDirectory()){
-				build(f.getAbsolutePath(), flag);
+				ReadDir(f.getAbsolutePath(), flag);
 			}else if(flag==1){
-				System.err.println("build words from  file "+dir.getAbsolutePath()+"\\"+f.getName());
-				getBufferedHashMap(dir.getAbsolutePath()+"/"+f.getName());
+				System.err.println("read words from  file "+dir.getAbsolutePath()+"\\"+f.getName());
+				ReadWordFromFile(dir.getAbsolutePath()+"/"+f.getName());
 			}else{
-				System.err.println("build words from  file "+dir.getAbsolutePath()+"\\"+f.getName());
-				getBufferedHashMap_Extended(dir.getAbsolutePath()+"/"+f.getName());
+				System.err.println("read words from  file "+dir.getAbsolutePath()+"\\"+f.getName());
+				ReadWordFromFile_Extended(dir.getAbsolutePath()+"/"+f.getName());
 			}
 		}
 	}
 	
-	private ArrayList<String> sort() {
+	private ArrayList<String> SortByCount() {
 		ArrayList<String> list = new ArrayList<String>(this.count.keySet());
 		Collections.sort(list, new Comparator<String>() {
 
@@ -67,8 +66,8 @@ public class Dictionary {
 		return list;
 	}
 	
-	public void output(String filename) {
-		ArrayList<String> list=sort();
+	public void OutputToFile(String filename) {
+		ArrayList<String> list=SortByCount();
 		try {
 			FileWriter fw = new FileWriter(filename);
 			BufferedWriter bf = new BufferedWriter(fw);
@@ -90,14 +89,14 @@ public class Dictionary {
 		}
 	}
 	
-	public void getBufferedHashMap_Extended(String filename)  {
+	public void ReadWordFromFile_Extended(String filename)  {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(filename)); 
 			String line="";
 			Pattern pattern = Pattern.compile("\\d+$");
 			Matcher matcher = pattern.matcher("");
 		    while((line=br.readLine())!=null){
-		    	line = line.replaceAll("[^(a-zA-Z0-9)]", " ");
+		    	 line = line.replaceAll("[^(a-zA-Z0-9)]", " ");
 				 StringTokenizer st = new StringTokenizer(line, " ");
 				 while(st.hasMoreTokens()){
 					 String key = st.nextToken();
@@ -135,12 +134,13 @@ public class Dictionary {
 		}
 	}
 	
-	public void getBufferedHashMap(String filename)  {
+	public void ReadWordFromFile(String filename)  {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(filename)); 
 			String line="";
 		    while((line=br.readLine())!=null){
-				 StringTokenizer st = new StringTokenizer(line, "!&(){}+-= '¡¯:;<> /\",*£º¡°¡±?@#$%^/\\¡®¡¤~`¡ª");
+		    	 line = line.replaceAll("[^(a-zA-Z0-9)]", " ");
+				 StringTokenizer st = new StringTokenizer(line, " ");
 				 while(st.hasMoreTokens()){
 					 String key = st.nextToken();
 					 String key2 = key.toLowerCase();
@@ -160,7 +160,7 @@ public class Dictionary {
 			 br.close();
 		}catch(FileNotFoundException e1){
 			
-			System.err.println("cannot find the file");
+			System.err.println("cannot find the file "+filename+" to read");
 			e1.printStackTrace();
 			
 		}catch (Exception e) {
