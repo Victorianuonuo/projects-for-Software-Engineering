@@ -29,7 +29,7 @@ public class Dictionary {
 	}
 	
 	public Map<String, String> getWord() {
-		return word;
+		return this.word;
 	}
 	
 	
@@ -74,10 +74,7 @@ public class Dictionary {
 			for(int i=0;i<list.size();i++){
 				String wd = list.get(i);
 				String s1 = this.word.get(wd);
-				String space = "";
-				for(int j=0;j<40-s1.length();j++)
-					space = space+" ";
-				bf.write(s1+space+"\t"+this.count.get(wd));
+				bf.write("<"+s1+">: "+this.count.get(wd));
 				bf.newLine();
 			}
 			bf.flush();
@@ -108,8 +105,14 @@ public class Dictionary {
 					 String key2 = key.toLowerCase();
 					 String key3 = null;
 					 int len = 0;
-					 if(!(key2.charAt(0)<='Z'&&key2.charAt(0)>='A'||key2.charAt(0)<='z'&&key2.charAt(0)>='a'))
+					 if(key2.length() < 4)
 						 continue;
+					 int i;
+					 for(i = 0; i < 4; i++){
+						 if(!(key2.charAt(i)<='Z'&&key2.charAt(i)>='A'||key2.charAt(i)<='z'&&key2.charAt(i)>='a'))
+						 	break;
+					 }
+					 if(i != 4)continue;
 					 matcher.reset(key2);
 					 if(matcher.find()){
 						 len = matcher.group().length();
@@ -149,8 +152,14 @@ public class Dictionary {
 				 while(st.hasMoreTokens()){
 					 String key = st.nextToken();
 					 String key2 = key.toLowerCase();
-					 if(!(key2.charAt(0)<='Z'&&key2.charAt(0)>='A'||key2.charAt(0)<='z'&&key2.charAt(0)>='a'))
+					 if(key2.length() < 4)
 						 continue;
+					 int i;
+					 for(i = 0; i < 4; i++){
+						 if(!(key2.charAt(i)<='Z'&&key2.charAt(i)>='A'||key2.charAt(i)<='z'&&key2.charAt(i)>='a'))
+						 	break;
+					 }
+					 if(i != 4)continue;
 					 if(this.word.containsKey(key2)){
 						 this.count.put(key2, count.get(key2)+1);
 						 if(key.compareTo(this.word.get(key2))==-1){
