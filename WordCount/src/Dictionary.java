@@ -98,7 +98,7 @@ public class Dictionary {
 			Pattern pattern = Pattern.compile("\\d+$");
 			Matcher matcher = pattern.matcher("");
 		    while((line=br.readLine())!=null){
-		    	 line = line.replaceAll("[^(a-zA-Z0-9)]", " ");
+		    	 line = line.replaceAll("[^a-zA-Z0-9]", " ");
 				 StringTokenizer st = new StringTokenizer(line, " ");
 				 while(st.hasMoreTokens()){
 					 String key = st.nextToken();
@@ -147,7 +147,7 @@ public class Dictionary {
 			BufferedReader br = new BufferedReader(new FileReader(filename)); 
 			String line="";
 		    while((line=br.readLine())!=null){
-		    	 line = line.replaceAll("[^(a-zA-Z0-9)]", " ");
+		    	 line = line.replaceAll("[^a-zA-Z0-9]", " ");
 				 StringTokenizer st = new StringTokenizer(line, " ");
 				 while(st.hasMoreTokens()){
 					 String key = st.nextToken();
