@@ -1,3 +1,4 @@
 #WordCount
-java Test <Dirname>
-java Test -e <Dirname>
+java Test <directory-name>
+
+java Test -e <directory-name>
